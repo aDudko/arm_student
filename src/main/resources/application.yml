@@ -1,0 +1,11 @@
+logging:
+  level: info
+
+spring:
+  jpa:
+    database: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/
+    username: postgres
+    password: postgres
+
